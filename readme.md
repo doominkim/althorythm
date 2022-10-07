@@ -22,6 +22,7 @@
 
 소스 상에 문제가 있거나 더 효율적인 방법이 있다면 의견 부탁드립니다.
 
+
 ## 목차
 1. Ordered Array
 2. Binary Search
@@ -29,3 +30,6 @@
 4. Linear Programming
 5. Selection Sort
 6. Injection Sort
+
+## 참조서적
+누구나 자료구조와 알고리즘 - 제이 웬그로우
