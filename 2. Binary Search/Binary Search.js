@@ -17,4 +17,5 @@ function binarySearch(array, searchValue){
     return null
 }
 
-console.log(binarySearch([3, 17, 75, 80, 202], 17));
+console.assert(binarySearch([3, 17, 75, 80, 202], 17) === 1, 'this is not 1');
+console.assert(binarySearch([3, 17, 75, 80, 202], 22) === null, 'this is not null');
