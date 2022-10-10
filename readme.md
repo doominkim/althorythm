@@ -32,7 +32,7 @@
 - [x] 3. Buble Sort - 버블 정렬
 - [x] 4. Linear Programming - 선형 계획법
 - [x] 5. Selection Sort - 선택 정렬
-- [x] 6. Injection Sort - 삽입 
+- [x] 6. Injection Sort - 삽입 정렬
 - [ ] 7. Hash Table - 해시 테이블
 - [ ] 8. Stack - 스택
 - [ ] 9. Queue - 큐
