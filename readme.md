@@ -26,12 +26,12 @@
     우리는 과학적 탐구까진 아니여도, 이러한 진행되어있는 연구에 대해서 실무적으로 알고 사용 할 수 있어야 현재와 같은 빅 데이터 시대에 충분히 대처할 만한 능력을 가질 수 있다고 생각합니다.
 
 ## 목차
-    - [x] 1. Linear Search - 정렬된 배열
-    - [x] 2. Binary Search - 이진 검색
-    - [x] 3. Buble Sort - 버블 정렬
-    - [x] 4. Linear Programming - 선형 계획법
-    - [x] 5. Selection Sort - 선택 정렬
-    - [x] 6. Injection Sort - 삽입 
+- [x] 1. Linear Search - 정렬된 배열
+- [x] 2. Binary Search - 이진 검색
+- [x] 3. Buble Sort - 버블 정렬
+- [x] 4. Linear Programming - 선형 계획법
+- [x] 5. Selection Sort - 선택 정렬
+- [x] 6. Injection Sort - 삽입 
 
 ## 참조서적
     누구나 자료구조와 알고리즘 - 제이 웬그로우
