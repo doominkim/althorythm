@@ -1,4 +1,5 @@
-function solution(n, m) {
+function solution(n, m) {    
+    // 유클리드 호제법으로 다시 풀기
     const minimumFunc = (number) => {
         const list = [];
         for(let i=0; i<=number; i++) {
