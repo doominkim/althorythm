@@ -7,7 +7,6 @@ function solution(number, limit, power) {
                 division.add(nightNumber / i)
                 division.add(i)
             }
-            
         }
         answer += (division.size > limit ? power : division.size)
     }
