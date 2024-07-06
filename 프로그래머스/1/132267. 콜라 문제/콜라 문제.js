@@ -3,7 +3,7 @@ function solution(a, b, n) {
     while(n >= a) {
         const newCola = Math.floor(n / a) * b;
         const remainCola = n % a;
-        n = newCola + remainCola;
+        n = Math.floor(n / a) * b + n % a;
         answer += newCola;
     }
     return answer;
