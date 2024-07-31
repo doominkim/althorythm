@@ -12,6 +12,6 @@ function solution(land) {
         }   
     }
     
-    return dp[dp.length - 1].sort((a, b) => b-a)[0]
+    return Math.max(...dp[dp.length - 1])
 }
 
