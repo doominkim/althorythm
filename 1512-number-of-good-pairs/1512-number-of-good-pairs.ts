@@ -10,7 +10,7 @@ function numIdenticalPairs(nums: number[]): number {
     }
 
     for(const value of hash.values()) {
-        count += value * (value - 1) / 2
+        count += (value * (value - 1)) / 2
     }
 
     return count;  
