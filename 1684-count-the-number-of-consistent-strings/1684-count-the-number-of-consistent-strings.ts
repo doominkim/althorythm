@@ -1,5 +1,5 @@
 function countConsistentStrings(allowed: string, words: string[]): number {
-    const regexp = new RegExp(`/[^${allowed}]/i`);
+    const regexp = new RegExp(`[^${allowed}]`);
     
     let count = 0;
     for(const word of words) {
