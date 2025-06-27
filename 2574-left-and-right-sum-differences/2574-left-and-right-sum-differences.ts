@@ -1,11 +1,18 @@
 function leftRightDifference(nums: number[]): number[] {
     const n = nums.length;
+    const prefixSum: number[] = Array(n+1).fill(0)
     const answer: number[] = [];
-    for(let i = 0; i < n; i++) {
-        const leftSum = nums.slice(0, i).reduce((acc, cur) => acc + cur, 0);
-        const rightSum = nums.slice(i + 1, n).reduce((acc, cur) => acc + cur, 0);
-        answer.push(Math.abs(leftSum - rightSum));
+
+    for(let i = 1; i <= n; i++) {
+        prefixSum[i] = prefixSum[i - 1] + nums[i - 1] 
     }
 
-    return answer;
+    for(let i = 0; i < n; i++) {
+        const left = prefixSum[i];
+        const right = Math.abs(prefixSum[i + 1] - prefixSum[n]);
+        Math.abs(left - right)
+    }
+    
+
+    return [1]
 };
