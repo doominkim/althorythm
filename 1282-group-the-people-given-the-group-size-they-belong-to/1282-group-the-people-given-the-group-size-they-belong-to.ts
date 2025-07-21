@@ -11,10 +11,8 @@ function groupThePeople(groupSizes: number[]): number[][] {
     }
 
     for(const [key, val] of groupMap.entries()) {
-        let count = 1;
         for(let i=0; i<val.length; i+=key) {
-            matchedGroup.push(val.slice(i, key * count))
-            count++
+            matchedGroup.push(val.slice(i, i+key))
         }
     }
 
